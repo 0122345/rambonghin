@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;  
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #320b33; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background:  linear-gradient(to top, blue, blueviolet);  
+  }
+  
+  /* For Firefox */
+ 
+        /* scrollbar-width: thin; 
+        scrollbar-color: blueviolet #320b33;  
+     */
