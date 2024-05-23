@@ -6,6 +6,8 @@ import Contact from "@/components/Contact"
 import Portfolio from '@/components/Portfolio'
 import Discover from '@/components/Discover'
 import Link from 'react-scroll'
+import Gallery from '@/components/Gallery'
+import Feature from '@/components/Feature'
 
 
 const index = () => {
@@ -13,7 +15,8 @@ const index = () => {
          <Layout>
           <HomePage/>
            <Discover /> 
-            <Goods />
+            <Gallery/>
+            <Feature />
             <Portfolio/>
             <Contact />
            </Layout>  
